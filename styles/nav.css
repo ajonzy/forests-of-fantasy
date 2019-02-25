@@ -1,0 +1,111 @@
+/* Common nav styles */
+.navigation-wrapper {
+    height: 190px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    /* Flexbox container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+}
+
+.navigation-wrapper > .left-column {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-wrapper > .left-column > .icon {
+    margin-right: 15px;
+}
+
+.navigation-wrapper > .left-column > .icon i {
+    font-size: 2em;
+}
+
+.navigation-wrapper > .left-column > .hours-phone-wrapper {
+    color: royalblue;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+.navigation-wrapper > .left-column > .hours-phone-wrapper > .hours {
+    font-family: 'Black And White Picture', sans-serif;
+    font-size: 0.8em;
+}
+
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 500px;
+}
+
+.navigation-wrapper > .center-column > .banner {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-wrapper > .center-column > .banner img {
+    width: 216px;
+    height: 100%;
+}
+
+.link-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-wrapper > .nav-link {
+    width: 70px;
+    text-align: center;
+}
+
+.link-wrapper > .nav-link a {
+    font-family: 'Black And White Picture', sans-serif;
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.link-wrapper > .nav-link a:hover {
+    color: #cea135;
+    letter-spacing: 2px;
+}
+
+.navigation-wrapper > .right-column {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-wrapper > .right-column > .address-wrapper {
+    text-align: right;
+}
+
+.navigation-wrapper > .right-column > .address-wrapper a {
+    color: red;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: 0.5s;
+}
+
+.navigation-wrapper > .right-column > .address-wrapper a:hover {
+    color: #cea135;
+}
+
+.navigation-wrapper > .right-column > .icon {
+    margin-left: 15px;
+    font-size: 2em;
+}
+
+.navigation-wrapper > .right-column > .icon a {
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navigation-wrapper > .right-column > .icon a:hover {
+    color: #cea135;
+}

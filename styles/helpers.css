@@ -1,0 +1,23 @@
+/* Helpers */
+.spacer60 {
+    height: 60px;
+    width: 100%;
+}
+
+.spacer10 {
+    height: 10px;
+    width: 100%;
+}
+
+.spacer2 {
+    height: 2px;
+    width: 100%;
+}
+
+.anchor-link {
+    text-decoration: none;
+}
+
+.anchor-link:focus {
+    outline: none;
+}

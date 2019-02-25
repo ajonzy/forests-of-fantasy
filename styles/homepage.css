@@ -1,0 +1,82 @@
+.forest-background {
+    background-image: url(../images/backgrounds/Forest_Sunlight_Background-954.jpg);
+    padding: 100px;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.forest-background > .top-header {
+    background-color: #11122b;
+    color: #cbcbcb;
+    border-radius: 2px;
+    width: 260px;
+    padding: 1px 20px;
+}
+
+.forest-background > .bottom-header {
+    background-color: #cea135;
+    color: #11122b;
+    border-radius: 2px;
+    width: 180px;
+    padding: 1px 20px;
+    margin-top: 15px;
+}
+
+/* Features Section */
+.features {
+    height: 400px;
+    background-image: url(../images/backgrounds/download.jpg);
+    background-color: green;
+    color: #cbcbcb;
+    font-family: 'KoHo', sans-serif;
+    border-top: 10px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px -35px 79px -8px rgba(0, 0, 0, 0.85)
+}
+
+.features > .column-wrapper {
+    width: 1500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features > .column-wrapper > .column {
+    padding: 20px;
+    margin: 42px 120px;
+    text-align: center;
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+    border-radius: 10px;
+    transition: 1s;
+    background-color: #11122b;
+}
+
+.features > .column-wrapper > .column:hover {
+    border-bottom: 5px solid #cea135;
+    border-top: 5px solid #cea135;
+}
+
+.features > .column-wrapper > .column :nth-child(1) {
+    font-size: 3em;
+}
+
+.features > .column-wrapper > .column :nth-child(2) {
+    font-size: 1.5em;
+    font-weight: 900;
+    height: 50px;
+    width: 250px;
+    transition: 1s;
+}
+
+.features > .column-wrapper > .column :nth-child(2):hover {
+    letter-spacing: 1px;
+}
+
+.features > .column-wrapper > .column :nth-child(3) {
+    letter-spacing: 2px;
+}

@@ -1,0 +1,21 @@
+/* Page Content */
+.page-container {
+    display: flex;
+    justify-content: center;
+}
+
+.page-container > .content-wrapper {
+    width: 1000px;
+}
+
+.page-container > .content-wrapper > #Jones {
+    width: 350px;
+    margin: 20px 40px 20px 0px;
+    float: left;
+    border: 1px solid #cea135;
+}
+
+.page-container > .content-wrapper p {
+    letter-spacing: 1px;
+    line-height: 30px;
+}

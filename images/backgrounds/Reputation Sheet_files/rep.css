@@ -1,0 +1,55 @@
+.rep-wrapper {
+    width: 1450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.rep-wrapper > .rep-content {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+
+.rep-content > .rep-guide {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: .8em;
+    margin-left: 20px;
+}
+
+.rep-content > .rep-squares {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rep-squares > .rep-square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 20px;
+}
+
+.rep-square > .square-header p {
+    font-weight: 700; 
+}
+
+.rep-square > .square-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square-content > .session-tracker {
+    height: 20px;
+}
+
+.square-content > .session-tracker p {
+    font-size: 1.5em;
+    transform: translateY(-16px);
+}
